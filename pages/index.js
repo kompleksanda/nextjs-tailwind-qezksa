@@ -11,11 +11,7 @@ export default function Home() {
           <div className="flex items-center justify-between h-16">
             <div className=" flex items-center">
               <a className="flex-shrink-0" href="/">
-                <img
-                  className="w-8 h-8"
-                  src="/icons/rocket.svg"
-                  alt="Workflow"
-                />
+                <img className="w-8 h-8" src="/favicon.ico" alt="Workflow" />
               </a>
               <div className="hidden md:block">
                 <div className="flex items-baseline ml-10 space-x-4">
