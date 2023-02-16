@@ -6,7 +6,7 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
       </Head>
-      <div className="bg-blue-500 h-screen w-full"></div>
+      <div className="bg-slate-100 h-screen w-full"></div>
     </>
   );
 }
