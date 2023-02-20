@@ -5,32 +5,9 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
       </Head>
-      <div className="bg-slate-100 h-screen w-full">
-        <div className="fixed inset-x-4 bottom-4 flex justify-between bg-green-500 p-2 text-slate-100 font-medium items-center">
-          <p>
-            I am happy{' '}
-            <a href="#" className="underline">
-              for now
-            </a>
-          </p>
-          <button
-            aria-label="Close"
-            className="backdrop-brightness-90 p-1 rounded-lg hover:backdrop-brightness-110"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5 fill-green-200"
-              viewBox="0 0 20 20"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                clip-rule="evenodd"
-              />
-            </svg>
-          </button>
-        </div>
-      </div>
+      <section class="relative bg-[url(https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80)] bg-cover bg-center bg-no-repeat h-screen w-screen">
+        <div class="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/25"></div>
+      </section>
     </>
   );
 }
